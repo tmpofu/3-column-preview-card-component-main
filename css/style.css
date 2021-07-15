@@ -1,0 +1,159 @@
+/******* Primary *******/
+/******* Neutral *******/
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+  background: #f2f2f2;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.row {
+  margin: 150px auto;
+  padding: 0;
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center center;
+      -ms-flex-pack: center center;
+          justify-content: center center;
+  border-radius: 7px;
+  overflow: hidden;
+  /********* SEDANS CSS ************/
+  /********* SUVS CSS ************/
+  /********* LUXURY CSS ************/
+}
+
+.row .sedans {
+  text-align: left;
+  padding: 45px 67px;
+  background: #e38826;
+}
+
+.row .sedans h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 40px;
+}
+
+.row .sedans P {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 25px;
+  padding-bottom: 80px;
+}
+
+.row .sedans .sedans-btn {
+  color: #e38826;
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
+  border-radius: 20px;
+  padding: 11px 30px;
+  font-size: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.row .sedans .sedans-btn:hover {
+  background: #e38826;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+
+.row .suv {
+  text-align: left;
+  padding: 45px 67px;
+  background: #006970;
+}
+
+.row .suv h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 40px;
+}
+
+.row .suv P {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 25px;
+  padding-bottom: 80px;
+}
+
+.row .suv .suv-btn {
+  color: #006970;
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
+  border-radius: 20px;
+  padding: 11px 30px;
+  font-size: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.row .suv .suv-btn:hover {
+  background: #006970;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+
+.row .luxury {
+  text-align: left;
+  padding: 45px 62px;
+  background: #004241;
+}
+
+.row .luxury h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: #f2f2f2;
+  font-size: 40px;
+}
+
+.row .luxury P {
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 25px;
+  padding-bottom: 80px;
+}
+
+.row .luxury .lux-btn {
+  color: #004241;
+  border: 1px solid #f2f2f2;
+  background: #f2f2f2;
+  border-radius: 20px;
+  padding: 11px 30px;
+  font-size: 15px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.row .luxury .lux-btn:hover {
+  background: #004241;
+  color: rgba(255, 255, 255, 0.75);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 375px;
+  }
+  .row .sedans,
+  .row .suv {
+    padding: 45px 68px;
+  }
+  .row .luxury {
+    padding: 45px 69px;
+  }
+  .row p {
+    padding-bottom: 10px !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
