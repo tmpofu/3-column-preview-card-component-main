@@ -13,8 +13,9 @@ body {
     padding: 0;
     width: 80%;
     display: flex;
-    justify-content: center center;
+    justify-content: center;
     border-radius: 7px;
+    overflow: hidden;
     /********* SEDANS CSS ************/
     .sedans {
         text-align: left;
@@ -121,10 +122,18 @@ body {
             padding: 45px 68px;
         }
         .luxury {
-            padding: 45px 69px;
+            padding: 45px 68px;
         }
         p {
             padding-bottom: 10px !important;
         }
+    }
+}
+
+@media only screen and(min-width: 768px) and (max-width: 900px) {
+    .row .luxury .lux-btn,
+    .sedans-btn,
+    .suv-btn {
+        margin-top: 40px;
     }
 }
