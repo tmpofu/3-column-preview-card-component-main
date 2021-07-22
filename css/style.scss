@@ -11,7 +11,7 @@ body {
 .row {
     margin: 130px auto;
     padding: 0;
-    width: 75%;
+    width: 90%;
     display: flex;
     justify-content: center center;
     border-radius: 7px;
@@ -25,11 +25,13 @@ body {
             font-family: 'Big Shoulders Display', cursive;
             color: $very-light-gray;
             font-size: 40px;
+            height: 40%;
         }
         P {
             color: $transparent-white;
             line-height: 25px;
             padding-bottom: 80px;
+            height: 40%;
         }
         .sedans-btn {
             color: $bright-orange;
@@ -60,6 +62,7 @@ body {
             color: $transparent-white;
             line-height: 25px;
             padding-bottom: 80px;
+            height: 40%;
         }
         .suv-btn {
             color: $dark-cyan;
@@ -90,6 +93,7 @@ body {
             color: $transparent-white;
             line-height: 25px;
             padding-bottom: 80px;
+            height: 40%;
         }
         .lux-btn {
             color: $very-dark-cyan;
